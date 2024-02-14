@@ -1,5 +1,14 @@
 body{
 	text-align: center;
-	margin: 70px;
+	margin-top: 70px;
 	background-color: rgb(255, 237, 243);
+}
+a {
+	text-decoration: none;
+}
+a:visited {
+	color: rgb(255, 91, 165);
+}
+a:hover {
+	color: rgb(67, 142, 200);
 }

@@ -1,0 +1,23 @@
+body{
+	margin-left: 140px;
+	margin-right: 140px;
+	margin-bottom: 100px;
+	margin-top: 70px;
+	background-color: rgb(254, 216, 177);
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+a:visited {
+	color: rgb(255, 139, 0);
+}
+a:hover {
+	color: rgb(255, 91, 165);
+}
+h1{
+	font-family: duckie, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 70px;
+}
