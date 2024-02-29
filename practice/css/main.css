@@ -1,0 +1,19 @@
+body {
+	background-color: lightpink;
+	margin: 0;
+}
+h1 {
+	color: tomato;
+	text-align: center;
+	margin-top: 225px;
+	font-size: 200px;
+}
+@media screen and (max-width: 800px){
+	body {
+		background-color: black;
+	}
+	h1 {
+		margin-top: 350px;
+		font-size: 60px;
+	}
+}
