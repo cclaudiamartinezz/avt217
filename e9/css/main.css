@@ -4,38 +4,256 @@
 body{
 	margin: 0;
 } 
+main{
+	width: 100vw;
+	overflow: hidden;
+}
+#container{
+	width: 120vw;
+	margin-left: -10vw;
+}
 #p1 .p1-1{
 	width: 100px;
 	height: 100px;
-	background-color: hotpink;
+	background-color: skyblue;
 	float: left;
-	margin: 20px;
+	transform: rotate(45deg);
+	opacity: 0;
 }
 #p1 .p1-2{
-	width: 100px;
-	height: 100px;
-	background-color: rosybrown;
+	width: 50px;
+	height: 200px;
+	background-color: whitesmoke;
 	float: left;
-	margin: 20px;
+	margin: -50px;
+	border: 10px solid rosybrown;
+	opacity: 0.5;
+	transform: skew(10deg);
+	border-radius: 100px;
+}
+#p1 .p1-3{
+	width: 50px;
+	height: 200px;
+	background-color: whitesmoke;
+	float: left;
+	margin: -100px;
+	border: 10px solid hotpink;
+	opacity: 0.5;
+	transform: skew(10deg);
+	border-radius: 100px;
 }
 #p2 .p2-1{
-	width: 100px;
-	height: 100px;
-	background-color: springgreen;
+	width: 50px;
+	height: 50px;
 	float: left;
-	margin: 20px;
+	opacity: 0.5;
+	transform: rotate(25deg);
+	border: 25px dotted; color: purple;
 }
 #p2 .p2-2{
-	width: 100px;
-	height: 100px;
-	background-color: deepskyblue;
+	width: 50px;
+	height: 50px;
 	float: left;
-	margin: 20px;
+	opacity: 0.7;
+	transform: rotate(50deg);
+	border: 15px dotted; color: black;
 }
 #p2 .p2-3{
+	width: 50px;
+	height: 50px;
+	float: left;
+	opacity: 0.5;
+	border: 25px dotted; color: darkgreen;
+}
+#p3 .p3-1{
 	width: 100px;
 	height: 100px;
-	background-color: deeppink;
+	background-color: rgb(73, 37, 73);
 	float: left;
-	margin: 20px;
+	transform: rotate(10deg);
+	border-radius: 100px;
+}
+#p3 .p3-2{
+	width: 100px;
+	height: 100px;
+	background-color: rgb(68, 37, 73);
+	float: left;
+	transform: rotate(20deg);
+	border-radius: 90px;
+}
+#p3 .p3-3{
+	width: 100px;
+	height: 100px;
+	background-color: rgb(63, 37, 73);
+	float: left;
+	transform: rotate(30deg);
+	border-radius: 80px;
+}
+#p3 .p3-4{
+	width: 100px;
+	height: 100px;
+	background-color: rgb(58, 37, 73);
+	float: left;
+	transform: rotate(40deg);
+	border-radius: 70px;
+}
+#p3 .p3-5{
+	width: 100px;
+	height: 100px;
+	background-color: rgb(53, 37, 73);
+	float: left;
+	transform: rotate(50deg);
+	border-radius: 60px;
+}
+#p3 .p3-6{
+	width: 100px;
+	height: 100px;
+	background-color: rgb(48, 37, 73);
+	float: left;
+	transform: rotate(60deg);
+	border-radius: 50px;
+}
+#p3 .p3-7{
+	width: 100px;
+	height: 100px;
+	background-color: rgb(43, 37, 73);
+	float: left;
+	transform: rotate(70deg);
+	border-radius: 40px;
+}
+#p3 .p3-8{
+	width: 100px;
+	height: 100px;
+	background-color: rgb(38, 37, 73);
+	float: left;
+	transform: rotate(80deg);
+	border-radius: 30px;
+}
+#p3 .p3-9{
+	width: 100px;
+	height: 100px;
+	background-color: rgb(33, 37, 73);
+	float: left;
+	transform: rotate(90deg);
+	border-radius: 20px;
+}
+#p3 .p3-10{
+	width: 100px;
+	height: 100px;
+	background-color: rgb(28, 37, 73);
+	float: left;
+	transform: rotate(100deg);
+	border-radius: 10px;
+}
+#p3 .p3-18{
+	width: 100px;
+	height: 100px;
+	background-color: rgb(68, 37, 73);
+	float: left;
+	transform: rotate(180deg);
+}
+#p3 .p3-17{
+	width: 100px;
+	height: 100px;
+	background-color: rgb(63, 37, 73);
+	float: left;
+	transform: rotate(170deg);
+}
+#p3 .p3-16{
+	width: 100px;
+	height: 100px;
+	background-color: rgb(58, 37, 73);
+	float: left;
+	transform: rotate(160deg);
+}
+#p3 .p3-15{
+	width: 100px;
+	height: 100px;
+	background-color: rgb(53, 37, 73);
+	float: left;
+	transform: rotate(150deg);
+}
+#p3 .p3-14{
+	width: 100px;
+	height: 100px;
+	background-color: rgb(48, 37, 73);
+	float: left;
+	transform: rotate(140deg);
+}
+#p3 .p3-13{
+	width: 100px;
+	height: 100px;
+	background-color: rgb(43, 37, 73);
+	float: left;
+	transform: rotate(130deg);
+}
+#p3 .p3-12{
+	width: 100px;
+	height: 100px;
+	background-color: rgb(38, 37, 73);
+	float: left;
+	transform: rotate(120deg);
+}
+#p3 .p3-11{
+	width: 100px;
+	height: 100px;
+	background-color: rgb(33, 37, 73);
+	float: left;
+	transform: rotate(110deg);
+}
+#p4 .p4-1{
+	width: 20px;
+	height: 80px;
+	background-color: lightseagreen;
+	float: left;
+	transform: skew(-25deg);
+	opacity: 0.5;
+}
+#p4 .p4-2{
+	width: 20px;
+	height: 80px;
+	background-color: lightpink;
+	float: left;
+	transform: skew(25deg);
+	opacity: 0.5;
+}
+#p4 .p4-3{
+	width: 50px;
+	height: 50px;
+	float: left;
+	transform: rotate(25deg);
+	margin: -25px;
+	border:10px dotted; color: yellowgreen;
+	opacity: 0.5;
+}
+#p5 .p5-1{
+	float: left;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid lightseagreen;
+	opacity: 0.9;
+	transform: rotate(90deg);
+	margin: 2px;
+}
+#p5 .p5-2{
+	float: left;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid skyblue;
+	transform: rotate(-90deg);
+	margin: 2px;
+}
+#p5 .p5-3{
+	float: left;
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 100px solid deeppink;
+	margin: -100px;
+	opacity: 0.3;
 }
