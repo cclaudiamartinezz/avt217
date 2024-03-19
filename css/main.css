@@ -1,15 +1,46 @@
-
 body{
-	text-align: center;
-	margin-top: 100px;
 	background-color: rgb(255, 237, 243);
 }
-a {
+a{
 	text-decoration: none;
 }
-a:visited {
+a:visited{
 	color: rgb(255, 91, 165);
 }
-a:hover {
+a:hover{
 	color: rgb(67, 142, 200);
+}
+li{
+	font-size: 1rem;
+	line height: 1.5rem;
+	margin-bottom: 10px;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 75vw;	
+	margin: 25px auto;
+}
+main{
+	width: 75vw;
+	margin: 25px auto;
+	display: flow-root;
+}
+@media screen and (max-width: 600px){
+	.col{
+	width: 100%;
+	margin-bottom: 50px;
+	}
+	header{
+		width: 90vw;
+	}
+	main{
+		width: 90vw;
+	}
+	h1{
+		font-size: 3rem;
+	}
 }
