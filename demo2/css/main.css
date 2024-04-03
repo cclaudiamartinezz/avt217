@@ -1,0 +1,42 @@
+.base{
+	width: 100px;
+	height: 200px;
+	position: absolute;
+	top: 275px;
+	left: 97px;
+	background-color: hotpink;
+	border-radius: 15px 15px 0 0;
+}
+.neck{
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 250px;
+	left: 135px;
+	background-color: orange;
+}
+.shade{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	background-color: yellow;
+}
+.pull-string{
+	width: 5px;
+	height: 15px;
+	position: absolute;
+	bottom: -210px;
+	left: 100px;
+	background-color: orange;
+}
+.pull-circle{
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	border-radius: 50%;
+	top: 10px;
+	left: -2px;
+	background-color: orange;
+}
