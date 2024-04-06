@@ -22,6 +22,9 @@ p{
 	margin-right: 450px;
 	font-size: 16px;
 }
+p:hover {
+	color: blueviolet;
+}
 h1{
 	text-align: center;
 	margin-top: 100px;
