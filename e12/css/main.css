@@ -1,0 +1,48 @@
+body{
+	height: 3325px;
+}
+img{
+	width: 50%;
+	margin: -2px
+}
+.images{
+	width: 100%;
+	position: relative;
+}
+.text-box{
+	width: 100%;
+	background-color: white;
+	border-radius: 150px;
+	position: absolute;
+	margin-top: -400px;
+	margin-left: -3px;
+}
+p{
+	margin-left: 450px;
+	margin-right: 450px;
+	font-size: 16px;
+}
+h1{
+	text-align: center;
+	margin-top: 100px;
+	font-family: "adobe-garamond-pro", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 60px;
+}
+h2{
+	text-align: center;
+	margin-top: -45px;
+	font-family: "adobe-garamond-pro", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 60px;
+}
+h3{
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: "adobe-garamond-pro", serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 30px;
+}
