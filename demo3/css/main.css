@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+}
+div{
+	width: 100px;
+	height: 100px;
+	background-color: tomato;
+	position: absolute;
+	animation: 5s ease-in-out move infinite alternate;
+}
+/**div:hover{
+	cursor: pointer;
+	animation: 5s ease-in-out move infinite alternate;
+}**/
+@keyframes move{
+	0%{
+		top: 0;
+		left: 0;
+		transform: rotate(0);
+		background-color: tomato;
+	}
+	25%{
+		top: 0;
+		left: calc(100vw - 100px);
+		background-color: darkseagreen;
+	}
+	50%{
+		top: calc(100vh - 100px);
+		left: 0;
+		background-color: mediumpurple;
+	}
+	100%{
+		width: 400px;
+		height: 400px;
+		top: 500px;
+		top: calc(100vw - 100px);
+		left: calc(100vw - 100px);
+		transform: rotate(1080deg);
+		background-color: goldenrod;
+	}
+}
